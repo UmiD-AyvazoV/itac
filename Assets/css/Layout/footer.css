@@ -1,0 +1,155 @@
+footer {
+    box-shadow: 0px -2px 10px rgba(179, 177, 177, 0.5);
+    margin-top: 100px;
+}
+
+footer .container {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .left {
+  width: 30%;
+}
+footer .container .left .contact {
+  margin-bottom: 56px;
+}
+footer .container .left .contact .title {
+  font-size: 18px;
+  color: #1ba9e3;
+  line-height: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+footer .container .left .contact p {
+  font-size: 16px;
+  color: #242730;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+footer .container .left .follow .title {
+  font-size: 18px;
+  color: #1ba9e3;
+  line-height: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+footer .container .left .follow .icons {
+  display: flex;
+}
+footer .container .left .follow .icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid rgba(36, 39, 48, 0.08);
+  transition: 0.5s ease-in-out;
+  margin-right: 15px;
+}
+footer .container .left .follow .icons a i {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s ease-in-out;
+}
+footer .container .left .follow .icons a:hover {
+  background: #1ba9e3;
+}
+footer .container .left .follow .icons a:hover i {
+  color: #fff;
+}
+footer .container .right {
+  width: 58%;
+}
+footer .container .right .work .title {
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: #1ba9e3;
+  line-height: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+footer .container .right .work p {
+  font-size: 48px;
+  color: #242730;
+  line-height: 56px;
+  letter-spacing: -1.5px;
+  margin-bottom: 32px;
+  font-weight: bold;
+}
+footer .container .right .service .title {
+  display: block;
+  font-size: 20px;
+  color: #242730;
+  line-height: 32px;
+  margin-bottom: 8px;
+  letter-spacing: -0.5px;
+  font-weight: bold;
+}
+footer .container .right .service p {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 14px;
+  color: #242730;
+  line-height: 20px;
+  background: #f4f4f4;
+  cursor: pointer;
+  margin: 0 10px 10px 0;
+}
+footer .container .right form {
+  margin-top: 58px;
+}
+footer .container .right form input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #e4e4e4;
+  font-size: 16px;
+  color: #1ba9e3;
+  line-height: 24px;
+  margin-bottom: 40px;
+  padding-top: 15px;
+  width: 287px;
+  font-weight: bold;
+}
+footer .container .right form input:last-child {
+  width: 166px;
+  border: none;
+  padding: 12px 48px;
+  background: #1ba9e3;
+  padding: 6px 20px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 24px;
+  letter-spacing: -0.09px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+footer .container .right form input:last-child:hover {
+  background: rgb(5, 94, 129);
+}
+footer .container .right form input:nth-child(1),
+footer .container .right form :nth-child(3) {
+  margin-right: 50px;
+}
+footer .container .right form :nth-child(5) {
+  width: 100%;
+}
+footer .container .right form input:focus {
+  border-bottom: 1px solid #1ba9e3;
+  font-size: 10px;
+}
+footer .container .right form input:focus::-moz-placeholder {
+  position: absolute;
+  top: 0;
+}
+footer .container .right form input:focus::placeholder {
+  position: absolute;
+  top: 0;
+}
